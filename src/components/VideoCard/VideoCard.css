@@ -1,0 +1,25 @@
+.VideoCard a{
+    color: inherit;
+    text-decoration: none;
+  }
+  .VideoCard .card{
+    border-width: 2px;
+  }
+  .VideoCard .card:hover{
+    background-color: var(--bg-primary);
+    color: white;
+  }
+  .VideoCard .card:hover h5{
+    color: white !important;
+  }
+  .VideoCard .card h5{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .VideoCard .card{
+    border-radius: 20px;
+  }
+  .VideoCard .card img{
+    border-radius: 20px 20px 0 0;
+  }

@@ -1,0 +1,21 @@
+.PlayListItem a{
+  /* background-color: white; */
+  color: inherit !important;
+}
+.PlayListItem:hover {
+  background-color: var(--bg-primary);
+  color: white;
+}
+.PlayListItem.current{
+  background-color: var(--bg-primary) !important;
+  color: white !important;
+}
+.navbar-brand{
+  color: var(--bg-primary) !important;
+  font-weight: bold;
+}
+.PlayListItem .video-title strong {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
